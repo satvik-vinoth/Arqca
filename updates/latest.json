@@ -1,0 +1,10 @@
+{
+  "version": "0.1.1",
+  "notes": "Nexus 0.1.1",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTa0pJNUdBc0dlUUFRQmp5WlBidTNDMllOMnY0dDZDejE1bjQ0bG13M09NN1JTR0FWWFk0SjFSdnphbnp0NjF3bHR6anNGbzQ0bmhRL2JvMWRCb01xaEhnM3F4QThIcHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDgyNDU4CWZpbGU6TmV4dXNfMC4xLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4xCkVGM1BobWRRM1d5RmVwRitrQm00Y1RBUzBZK1pJemx4OHRrNDhWY2NRM1hQREp2Z1dQMGYxOXdqcDZIbnpVRG93Z0dWaEtWREdLTUNQZXg2NU9Jb0J3PT0K",
+      "url": "https://github.com/satvik-vinoth/Arqca/releases/download/v0.1.1/Nexus_0.1.1_x64-setup.exe"
+    }
+  }
+}

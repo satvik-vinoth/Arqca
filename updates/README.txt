@@ -1,15 +1,17 @@
 This directory is the public updater origin for the Nexus desktop app.
 
-When a signed installer exists, publish these three files here:
+Publish here:
 
-  latest.json
-  Nexus_<version>_x64-setup.exe
-  Nexus_<version>_x64-setup.exe.sig
+  latest.json   (UTF-8, no BOM)
+
+Do not commit the Windows installer into this git tree. The .exe and .sig
+live on a public GitHub Release of satvik-vinoth/Arqca. latest.json's
+platforms.windows-x86_64.url must be that Release asset, for example:
+
+  https://github.com/satvik-vinoth/Arqca/releases/download/v0.1.1/Nexus_0.1.1_x64-setup.exe
 
 Rules:
-- latest.json must be UTF-8 without BOM
-- platforms.windows-x86_64.url must be
-  https://arqca.me/updates/Nexus_<version>_x64-setup.exe
-- Cache latest.json for minutes, not days
 - Never publish a fake .exe
 - Never put the Tauri updater private key here
+- Cache latest.json for minutes, not days
+- Keep the Download button on the landing page pointing at the same URL
